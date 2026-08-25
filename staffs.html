@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy Department - Staffs</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("site-theme") || "light");
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <img src="images/anatomy-logo.png" alt="Anatomy Department Logo" class="logo-image">
+      </a>
+
+      <div class="department-info">
+        <h1>Department of Human Anatomy</h1>
+        <p>Bingham University</p>
+        <p2>Km26,Abuja-KeffiExpressway,New Karu,Abuja</p2>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meetus.html" class="active">Meet Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="News.html">News</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="light" aria-label="Light theme" title="Light"></button>
+        <button class="theme-btn" data-theme="dark" aria-label="Dark theme" title="Dark"></button>
+        <button class="theme-btn" data-theme="purple" aria-label="Purple theme" title="Purple"></button>
+        <button class="theme-btn" data-theme="blue" aria-label="Blue theme" title="Blue"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <a class="back-link" href="meetus.html">&larr; Back to Meet Us</a>
+      <h2>Staff</h2>
+      <p>Explore the different categories of staff within the department.</p>
+
+      <div class="meetus-grid">
+        <a class="meetus-card" href="principalofficers.html">
+          <span class="meetus-card-title">Principal Officers</span>
+          <span class="meetus-card-desc">The Head of Department and other principal officers.</span>
+        </a>
+
+        <a class="meetus-card" href="academicstaff.html">
+          <span class="meetus-card-title">Academic Staff</span>
+          <span class="meetus-card-desc">Lecturers and academic staff members.</span>
+        </a>
+
+        <a class="meetus-card" href="nonacademicstaff.html">
+          <span class="meetus-card-title">Non-Academic Staff</span>
+          <span class="meetus-card-desc">Administrative and support staff members.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script src="theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy Department - Web Dev Team</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("site-theme") || "light");
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <img src="images/anatomy-logo.png" alt="Anatomy Department Logo" class="logo-image">
+      </a>
+
+      <div class="department-info">
+        <h1>Department of Human Anatomy</h1>
+        <p>Bingham University</p>
+        <p2>Km26,Abuja-KeffiExpressway,New Karu,Abuja</p2>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meetus.html" class="active">Meet Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="News.html">News</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="light" aria-label="Light theme" title="Light"></button>
+        <button class="theme-btn" data-theme="dark" aria-label="Dark theme" title="Dark"></button>
+        <button class="theme-btn" data-theme="purple" aria-label="Purple theme" title="Purple"></button>
+        <button class="theme-btn" data-theme="blue" aria-label="Blue theme" title="Blue"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <a class="back-link" href="meetus.html">&larr; Back to Meet Us</a>
+      <h2>Web Dev Team</h2>
+      <p>The Brains behind this project</p>
+
+
+      <div class="people-grid">
+        <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Eno E. Effiong</h3>
+            <p class="people-role">Lead coder</p>
+          </div>
+        </div>
+
+        <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Onigbode Naomi</h3>
+            <p class="people-role">QA Tester and Database</p>
+            </div>
+        </div>
+
+            <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Iniobong Richard</h3>
+            <p class="people-role">QA Tester and Database</p>
+            </div>
+        </div>
+
+            <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Mmesoma Favour</h3>
+            <p class="people-role">QA Tester and Database</p>
+            </div>
+        </div>
+
+            <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Honor Stephen</h3>
+            <p class="people-role">QA Tester and Database</p>
+            </div>
+        </div>
+
+            <div class="people-card">
+          <div class="people-photo">
+            <img src="images/placeholder-person.svg" alt="Member Name">
+          </div>
+          <div class="people-info">
+            <h3 class="people-name">Jemima Arabo</h3>
+            <p class="people-role">QA Tester and Database</p>
+          </div>
+        </div>
+      <div>
+    </section>
+  </main>
+
+ 
+
+  <script src="theme.js"></script>
+</body>
+</html>

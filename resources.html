@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy Department - Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('site-theme') || 'light');
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <img src="images/anatomy-logo.png" alt="Anatomy Department Logo" class="logo-image">
+      </a>
+
+      <div class="department-info">
+        <h1>Department of Human Anatomy</h1>
+        <p>Bingham University</p>
+        <p2>Km26,Abuja-KeffiExpressway,New Karu,Abuja</p2>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meetus.html">Meet Us</a></li>
+          <li><a href="resources.html" class="active">Resources</a></li>
+          <li><a href="News.html">News</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="light" aria-label="Light theme" title="Light"></button>
+        <button class="theme-btn" data-theme="dark" aria-label="Dark theme" title="Dark"></button>
+        <button class="theme-btn" data-theme="purple" aria-label="Purple theme" title="Purple"></button>
+        <button class="theme-btn" data-theme="blue" aria-label="Blue theme" title="Blue"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <h2>Resources</h2>
+      <p>Select a level to find learning materials for each semester.</p>
+
+      <div class="meetus-grid">
+        <a class="meetus-card" href="level100.html">
+          <span class="meetus-card-title">100 Level</span>
+          <span class="meetus-card-desc">Materials for first year students.</span>
+        </a>
+
+        <a class="meetus-card" href="level200.html">
+          <span class="meetus-card-title">200 Level</span>
+          <span class="meetus-card-desc">Materials for second year students.</span>
+        </a>
+
+        <a class="meetus-card" href="level300.html">
+          <span class="meetus-card-title">300 Level</span>
+          <span class="meetus-card-desc">Materials for third year students.</span>
+        </a>
+
+        <a class="meetus-card" href="level400.html">
+          <span class="meetus-card-title">400 Level</span>
+          <span class="meetus-card-desc">Materials for fourth year students.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script src="theme.js"></script>
+</body>
+</html>

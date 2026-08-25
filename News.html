@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy Department - News</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.setAttribute("data-theme", localStorage.getItem("site-theme") || "light");
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link">
+        <img src="images/anatomy-logo.png" alt="Anatomy Department Logo" class="logo-image">
+      </a>
+
+      <div class="department-info">
+        <h1>Department of Human Anatomy</h1>
+        <p>Bingham University</p>
+        <p2>Km26,Abuja-KeffiExpressway,New Karu,Abuja</p2>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="meetus.html">Meet Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="News.html" class="active">News</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-switcher">
+        <button class="theme-btn" data-theme="light" aria-label="Light theme" title="Light"></button>
+        <button class="theme-btn" data-theme="dark" aria-label="Dark theme" title="Dark"></button>
+        <button class="theme-btn" data-theme="purple" aria-label="Purple theme" title="Purple"></button>
+        <button class="theme-btn" data-theme="blue" aria-label="Blue theme" title="Blue"></button>
+      </div>
+    </div>
+  </header>
+
+   <main>
+    <section class="welcome-section">
+      <h2>News</h2>
+      <p>Updates and announcements from the department.</p>
+
+           <div class="news-grid">
+        <div class="news-card">
+          <div class="news-photo"></div>
+          <div class="news-info">
+            <span class="news-date">Date</span>
+            <h3 class="news-title">Headline</h3>
+            <p class="news-excerpt">Short summary of the story goes here.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-photo"></div>
+          <div class="news-info">
+            <span class="news-date">Date</span>
+            <h3 class="news-title">Headline</h3>
+            <p class="news-excerpt">Short summary of the story goes here.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-photo"></div>
+          <div class="news-info">
+            <span class="news-date">Date</span>
+            <h3 class="news-title">Headline</h3>
+            <p class="news-excerpt">Short summary of the story goes here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script src="theme.js"></script>
+</body>
+</html>
